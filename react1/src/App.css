@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+  font-family: "Poppins",sans-serif;
+}
+
+*{
+  margin: 0;
+}
+/* App.css */
+
+.button-default {
+  color: white;
+  background-color: #4371fd; /* blue-700 */
+  padding: 10px 20px;
+  border-radius: 9999px; /* rounded-full */
+  font-size: 14px; /* text-sm */
+  font-weight: 500; /* font-medium */
+  text-align: center;
+  margin-right: 0.5rem; /* me-2 */
+  margin-bottom: 0.5rem; /* mb-2 */
+  width: 90px;
+}
+
+.button-default:hover {
+  background-color: #1e40af; /* blue-800 */
+}
+
+.button-default:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); /* focus:ring-blue-300 */
+}
+
+.button-default.dark {
+  background-color: #2563eb; /* dark:bg-blue-600 */
+}
+
+.button-default.dark:hover {
+  background-color: #1d4ed8; /* dark:hover:bg-blue-700 */
+}
+
+.button-default.dark:focus {
+  box-shadow: 0 0 0 4px rgba(30, 58, 138, 0.5); /* dark:focus:ring-blue-800 */
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 102px;
+}
+.hero p{
+  font-weight: 400;
+  color: gray;
+  max-width: 400px;
+}
+.shop{
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px; 
+  
+  
+}
+.category{
+  color: gray;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 25px;
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px; 
+  
+  
+}
+.hero-btn{
+  
+  display: flex;
+  gap: 40px;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.brand-icons{
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
